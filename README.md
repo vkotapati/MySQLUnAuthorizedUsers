@@ -28,6 +28,7 @@ Options Considered:
           SELECT @outval, @outmsg;
           CALL mysql.cloudsql_reload_audit_rule(1)
      d. respective data can be accessed from log viewer using log type logName=( "projects/<<projectName>>/logs/cloudaudit.googleapis.com%2Fdata_access")
+  
      e. Sample Log file for example:
           {
             insertId: "2#40341998183#829766093922394308#cloudsql_mysql_audit#1682300554494849323#000000000000231a-0-0@a1"
